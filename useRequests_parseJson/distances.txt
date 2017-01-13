@@ -1,0 +1,5 @@
+1000 10th Ave, New York, NY 10019, USA	300 Community Dr, Manhasset, NY 11030, USA	37 mins
+16 E 16th St, New York, NY 10003, USA	300 Community Dr, Manhasset, NY 11030, USA	36 mins
+300 Community Dr, Manhasset, NY 11030, USA	234 E 149th St, Bronx, NY 10451, USA	29 mins
+300 Community Dr, Manhasset, NY 11030, USA	1300 Morris Park Ave, Bronx, NY 10461, USA	23 mins
+300 Community Dr, Manhasset, NY 11030, USA	1000 10th Ave, New York, NY 10019, USA	37 mins

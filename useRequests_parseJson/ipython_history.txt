@@ -1,0 +1,227 @@
+>>> import pandas as pd
+>>> pd.read_csv("addresses.tsv")
+>>> pd.read_table("addresses.tsv")
+                                    Address-E      Erica  \
+0        1300 Morris Park Ave Bronx, NY 10461   Einstein   
+1              150 55th St Brooklyn, NY 11220   Lutheran   
+2              234 E 149th St Bronx, NY 10451    Lincoln   
+3              150 55th St Brooklyn, NY 11220   Lutheran   
+4        1000 10th Avenue, New York, NY 10019  Roosevelt   
+5        1000 10th Avenue, New York, NY 10019  Roosevelt   
+6              150 55th St Brooklyn, NY 11220   Lutheran   
+7   300 Community Drive, Manhasset, NY, 11030        LIJ   
+8      185 S Orange Avenue, Newark, NJ, 07103    Rutgers   
+9              234 E 149th St Bronx, NY 10451    Lincoln   
+10       1300 Morris Park Ave Bronx, NY 10461   Einstein   
+11       1000 10th Avenue, New York, NY 10019  Roosevelt   
+12                   506 6th St, Brooklyn, NY  Methodist   
+13             234 E 149th St Bronx, NY 10451    Lincoln   
+14     185 S Orange Avenue, Newark, NJ, 07103    Rutgers   
+15     185 S Orange Avenue, Newark, NJ, 07103    Rutgers   
+16     185 S Orange Avenue, Newark, NJ, 07103    Rutgers   
+17                   506 6th St, Brooklyn, NY  Methodist   
+18       1000 10th Avenue, New York, NY 10019  Roosevelt   
+19                   506 6th St, Brooklyn, NY  Methodist   
+20       1300 Morris Park Ave Bronx, NY 10461   Einstein   
+21  300 Community Drive, Manhasset, NY, 11030        LIJ   
+
+                       Commute          Kevin  \
+0   69 min by 5 train or BxM10   IFH Downtown   
+1   75-90 min by 1 and N train       Columbia   
+2            33 min by 2 train      Roosevelt   
+3                          NaN     IFH Harlem   
+4                          NaN  Einstein (OB)   
+5                          NaN  Einstein (FM)   
+6                          NaN     Sinai (OB)   
+7                          NaN   IFH Downtown   
+8                          NaN     IFH Harlem   
+9                          NaN            LIJ   
+10                         NaN            LIJ   
+11                         NaN      Methodist   
+12                         NaN     Sinai (OB)   
+13                         NaN   IFH Downtown   
+14                         NaN       Columbia   
+15                         NaN     Sinai (OB)   
+16                         NaN      Methodist   
+17                         NaN       Columbia   
+18                         NaN            LIJ   
+19                         NaN     IFH Harlem   
+20                         NaN      Roosevelt   
+21                         NaN      Roosevelt   
+
+                                    Address-K  
+0             16 E 16th St New York, NY 10003  
+1           610 W 158th St New York, NY 10032  
+2        1000 10th Avenue, New York, NY 10019  
+3         1824 Madison Ave New York, NY 10035  
+4        1300 Morris Park Ave Bronx, NY 10461  
+5         3544 Jerome Avenue, Bronx, NY 10467  
+6         5 E 98th Street, New York, NY 10029  
+7             16 E 16th St New York, NY 10003  
+8         1824 Madison Ave New York, NY 10035  
+9   300 Community Drive, Manhasset, NY, 11030  
+10  300 Community Drive, Manhasset, NY, 11030  
+11                   506 6th St, Brooklyn, NY  
+12        5 E 98th Street, New York, NY 10029  
+13            16 E 16th St New York, NY 10003  
+14          610 W 158th St New York, NY 10032  
+15        5 E 98th Street, New York, NY 10029  
+16                   506 6th St, Brooklyn, NY  
+17          610 W 158th St New York, NY 10032  
+18  300 Community Drive, Manhasset, NY, 11030  
+19        1824 Madison Ave New York, NY 10035  
+20       1000 10th Avenue, New York, NY 10019  
+21       1000 10th Avenue, New York, NY 10019  
+>>> df = pd.read_table("addresses.tsv")
+>>> df["Address-K"]
+0               16 E 16th St New York, NY 10003
+1             610 W 158th St New York, NY 10032
+2          1000 10th Avenue, New York, NY 10019
+3           1824 Madison Ave New York, NY 10035
+4          1300 Morris Park Ave Bronx, NY 10461
+5           3544 Jerome Avenue, Bronx, NY 10467
+6           5 E 98th Street, New York, NY 10029
+7               16 E 16th St New York, NY 10003
+8           1824 Madison Ave New York, NY 10035
+9     300 Community Drive, Manhasset, NY, 11030
+10    300 Community Drive, Manhasset, NY, 11030
+11                     506 6th St, Brooklyn, NY
+12          5 E 98th Street, New York, NY 10029
+13              16 E 16th St New York, NY 10003
+14            610 W 158th St New York, NY 10032
+15          5 E 98th Street, New York, NY 10029
+16                     506 6th St, Brooklyn, NY
+17            610 W 158th St New York, NY 10032
+18    300 Community Drive, Manhasset, NY, 11030
+19          1824 Madison Ave New York, NY 10035
+20         1000 10th Avenue, New York, NY 10019
+21         1000 10th Avenue, New York, NY 10019
+Name: Address-K, dtype: object
+>>> list(df["Address-K"])
+['16 E 16th St New York, NY 10003',
+ '610 W 158th St New York, NY 10032',
+ '1000 10th Avenue, New York, NY 10019',
+ '1824 Madison Ave New York, NY 10035',
+ '1300 Morris Park Ave Bronx, NY 10461',
+ '3544 Jerome Avenue, Bronx, NY 10467',
+ '5 E 98th Street, New York, NY 10029',
+ '16 E 16th St New York, NY 10003',
+ '1824 Madison Ave New York, NY 10035',
+ '300 Community Drive, Manhasset, NY, 11030',
+ '300 Community Drive, Manhasset, NY, 11030',
+ '506 6th St, Brooklyn, NY',
+ '5 E 98th Street, New York, NY 10029',
+ '16 E 16th St New York, NY 10003',
+ '610 W 158th St New York, NY 10032',
+ '5 E 98th Street, New York, NY 10029',
+ '506 6th St, Brooklyn, NY',
+ '610 W 158th St New York, NY 10032',
+ '300 Community Drive, Manhasset, NY, 11030',
+ '1824 Madison Ave New York, NY 10035',
+ '1000 10th Avenue, New York, NY 10019',
+ '1000 10th Avenue, New York, NY 10019']
+>>> "|".join(list(df["Address-K"]))
+'16 E 16th St New York, NY 10003|610 W 158th St New York, NY 10032|1000 10th Avenue, New York, NY 10019|1824 Madison Ave New York, NY 10035|1300 Morris Park Ave Bronx, NY 10461|3544 Jerome Avenue, Bronx, NY 10467|5 E 98th Street, New York, NY 10029|16 E 16th St New York, NY 10003|1824 Madison Ave New York, NY 10035|300 Community Drive, Manhasset, NY, 11030|300 Community Drive, Manhasset, NY, 11030|506 6th St, Brooklyn, NY|5 E 98th Street, New York, NY 10029|16 E 16th St New York, NY 10003|610 W 158th St New York, NY 10032|5 E 98th Street, New York, NY 10029|506 6th St, Brooklyn, NY|610 W 158th St New York, NY 10032|300 Community Drive, Manhasset, NY, 11030|1824 Madison Ave New York, NY 10035|1000 10th Avenue, New York, NY 10019|1000 10th Avenue, New York, NY 10019'
+>>> import requests
+>>> BASE_URL="https://maps.googleapis.com/maps/api/distancematrix/json"
+>>> API_KEY="AIzaSyD6HMXrnAo-gSGtA-jIE-MVWvImVDhJttk"
+>>> payload = {"units": "imperial", "origins"="|".join(list(df["Address-E"])), "destinations": "|".join(list(df["Address-K"])), API_KEY}
+>>> payload = {"units": "imperial", "origins":"|".join(list(df["Address-E"])), "destinations": "|".join(list(df["Address-K"])), "key": API_KEY}
+>>> payload
+{'destinations': '16 E 16th St New York, NY 10003|610 W 158th St New York, NY 10032|1000 10th Avenue, New York, NY 10019|1824 Madison Ave New York, NY 10035|1300 Morris Park Ave Bronx, NY 10461|3544 Jerome Avenue, Bronx, NY 10467|5 E 98th Street, New York, NY 10029|16 E 16th St New York, NY 10003|1824 Madison Ave New York, NY 10035|300 Community Drive, Manhasset, NY, 11030|300 Community Drive, Manhasset, NY, 11030|506 6th St, Brooklyn, NY|5 E 98th Street, New York, NY 10029|16 E 16th St New York, NY 10003|610 W 158th St New York, NY 10032|5 E 98th Street, New York, NY 10029|506 6th St, Brooklyn, NY|610 W 158th St New York, NY 10032|300 Community Drive, Manhasset, NY, 11030|1824 Madison Ave New York, NY 10035|1000 10th Avenue, New York, NY 10019|1000 10th Avenue, New York, NY 10019',
+ 'key': 'AIzaSyD6HMXrnAo-gSGtA-jIE-MVWvImVDhJttk',
+ 'origins': '1300 Morris Park Ave Bronx, NY 10461|150 55th St Brooklyn, NY 11220|234 E 149th St Bronx, NY 10451|150 55th St Brooklyn, NY 11220|1000 10th Avenue, New York, NY 10019|1000 10th Avenue, New York, NY 10019|150 55th St Brooklyn, NY 11220|300 Community Drive, Manhasset, NY, 11030|185 S Orange Avenue, Newark, NJ, 07103|234 E 149th St Bronx, NY 10451|1300 Morris Park Ave Bronx, NY 10461|1000 10th Avenue, New York, NY 10019|506 6th St, Brooklyn, NY|234 E 149th St Bronx, NY 10451|185 S Orange Avenue, Newark, NJ, 07103|185 S Orange Avenue, Newark, NJ, 07103|185 S Orange Avenue, Newark, NJ, 07103|506 6th St, Brooklyn, NY|1000 10th Avenue, New York, NY 10019|506 6th St, Brooklyn, NY|1300 Morris Park Ave Bronx, NY 10461|300 Community Drive, Manhasset, NY, 11030',
+ 'units': 'imperial'}
+>>> r = requests.get(BASE_URL, params=payload)
+>>> r.json()
+{'destination_addresses': [],
+ 'error_message': 'You have exceeded your rate-limit for this API.',
+ 'origin_addresses': [],
+ 'rows': [],
+ 'status': 'OVER_QUERY_LIMIT'}
+>>> erica_addresses = list(df["Address-E"])
+>>> kevin_addresses = list(df["Address-K"])
+>>> for x, y in erica_addresses, kevin_addresses:
+...     print("{} | {}".format(x,y))
+...
+>>> for x, y in zip(erica_addresses, kevin_addresses):
+...     print("{} | {}".format(x,y))
+...
+>>> responses=[]
+>>> for x, y in zip(erica_addresses, kevin_addresses):
+...         payload = {
+...                 "units": "imperial",
+...                 "origins": x,
+...                 "destinations": y,
+...                 "mode": "transit",
+...                 "key": API_KEY
+...                 }
+...         r = requests.get(BASE_URL, params=payload)
+...         respones.append(r.json())
+...
+>>> for x, y in zip(erica_addresses, kevin_addresses):
+...         payload = {
+...                 "units": "imperial",
+...                 "origins": x,
+...                 "destinations": y,
+...                 "mode": "transit",
+...                 "key": API_KEY
+...                 }
+...         r = requests.get(BASE_URL, params=payload)
+...         responses.append(r.json())
+...
+>>> len(responses)
+22
+>>> responses[0]
+{'destination_addresses': ['16 E 16th St, New York, NY 10003, USA'],
+ 'origin_addresses': ['1300 Morris Park Ave, Bronx, NY 10461, USA'],
+ 'rows': [{'elements': [{'distance': {'text': '12.8 mi', 'value': 20546},
+     'duration': {'text': '1 hour 6 mins', 'value': 3937},
+     'status': 'OK'}]}],
+ 'status': 'OK'}
+>>> type(responses[0])
+dict
+>>> responses[0]['rows']
+[{'elements': [{'distance': {'text': '12.8 mi', 'value': 20546},
+    'duration': {'text': '1 hour 6 mins', 'value': 3937},
+    'status': 'OK'}]}]
+>>> type(responses[0]['rows'])
+list
+>>> responses[0]['rows'][0]
+{'elements': [{'distance': {'text': '12.8 mi', 'value': 20546},
+   'duration': {'text': '1 hour 6 mins', 'value': 3937},
+   'status': 'OK'}]}
+>>> responses[0]['rows'][0]['duration']
+>>> type(responses[0]['rows'][0])
+dict
+>>> responses[0]['rows'][0]['elements']
+[{'distance': {'text': '12.8 mi', 'value': 20546},
+  'duration': {'text': '1 hour 6 mins', 'value': 3937},
+  'status': 'OK'}]
+>>> responses[0]['rows'][0]['elements'][0]
+{'distance': {'text': '12.8 mi', 'value': 20546},
+ 'duration': {'text': '1 hour 6 mins', 'value': 3937},
+ 'status': 'OK'}
+>>> responses[0]['rows'][0]['elements'][0]['duration']
+{'text': '1 hour 6 mins', 'value': 3937}
+>>> responses[0]['rows'][0]['elements'][0]['duration']['value']
+3937
+>>> ls
+>>> for r in responses:
+...     with open("distances.txt", "a") as f:
+...         f.write(r['rows'][0]['elements'][0]['duration']['text'])
+...
+>>> for r in responses:
+...     with open("distances.txt", "a") as f:
+...         f.write("{}\n".format(r['rows'][0]['elements'][0]['duration']['text']))
+...
+>>> for r in responses:
+...     with open("distances.txt", "a") as f:
+...         f.write("{}\t{}\t{}\n".format(r['destination_addresses'][0], r['origin_addresses'][0], r['rows'][0]['elements'][0]['duration']['text']))
+...
+>>> help
+Type help() for interactive help, or help(object) for help about object.
+>>> help()
+>>> %help
+>>> %magic
+>>> %history -o -p -f ipython_history.txt
