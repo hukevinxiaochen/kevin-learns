@@ -1,0 +1,47 @@
+	Link	Tour Name	Countries	Number of Nights	Difficulty Level	Mileage Average	Mileage Min	Mileage Max	Surface	Number of Loops	Cites/Towns vs. Villages	Attractions	Gold Star	Cost (Euro)	Flag
+0	Mileage Max	Cites/Towns vs. Villages	Surface	Mileage Average	Mileage Min	Flag	Cost	Number of Nights	Link	Tour Name	Countries	Attractions	Number of loops	Gold Star	Difficulty Level
+1	https://www.biketours.com/austria/danube-passau-vienna-service-plus/	Danube Bike Path 7 Nights (Service Plus)		7	1	34									
+2	https://www.biketours.com/austria/danube-bike-path-upscale-lodging/	Danube Bike Path 8 Nights (Upscale Lodging)		8	1	29									
+3	https://www.biketours.com/austria/dolomites-trieste/	Dolomites to Trieste via Lake Bled at the Foot of the Julian Alps		7	2	37									
+4	https://www.biketours.com/austria/innsbruck-salzburg/	Innsbruck to Salzburg: Through the Alps Along River Cycle Trails		7	2	31									
+5	https://www.biketours.com/austria/lake-constance-bicycle-path/	Lake Constance Bicycle Path		6	2	31									
+6	https://www.biketours.com/austria/salzburg-lakes-tour/	Salzburg Lakes Tour: Ten Lakes in the Foothills of the Alps		7	2	30									
+7	https://www.biketours.com/austria/salzburg-vienna-lakes-option/	Salzburg to Vienna, Lakes Option		7	2	35									
+8	https://www.biketours.com/austria/tauern-bike-path-krimml-passau/	Tauern Bike Path (Krimml-Passau)		7	2	32									
+9	https://www.biketours.com/austria/tauern-bike-path-salzburg/	Tauern Bike Path (Salzburg-Salzburg)		7	2	29									
+10	https://www.biketours.com/austria/vienna-budapest-hungary/ 	Vienna to Budapest (Service Plus)		7	2	37									
+11	https://www.biketours.com/croatia/cycling-istria-wine-roads/	Cycling Istria Wine Roads		7	2	24									
+12	https://www.biketours.com/czech-republic/best-of-south-bohemia/	Best of South Bohemia: Czech Republic to Its Fullest		7	2	32									
+13	https://www.biketours.com/czech-republic/prague-dresden-guided/	Prague to Dresden Along the Vltava and Elbe Rivers		6	2	29									
+14	https://www.biketours.com/france/bordeaux/	Bordeaux Vineyards and Backroads		7	2	26									
+15	https://www.biketours.com/france/burgundy-wine-trails/	"Burgundy Wine Trails: Beaune to Macon on the ""Voie Verte"""		6	1	15									
+16	https://www.biketours.com/france/france-loire-valley/	Loire Valley Chateaux and Gardens Tour		7	2	32									
+17	https://www.biketours.com/hungary/wine-bike-hungarys-balaton-uplands/	Wine and Bike in Hungary's Balaton Uplands		7	2	25									
+18	https://www.biketours.com/ireland/connemara-lazy-days-cycling/	Connemara Lazy Days Cycling		6	2	22									
+19	https://www.biketours.com/ireland/Treasures-of-the-Donegal-Coast/	Treasures of the Donegal Coast	Ireland	7.0	2.0	18.0	13.0	33.0	paved shared roads	2.0	Villages	Donegal castle, coastline, Stone/Bronze Age ruins, monastery	No	730.0	
+20	https://www.biketours.com/portugal/algarve-coastal-route/	Algarve Coastal Route: From the Spanish Border West Along the Sea	Portugal	7.0	2.0	25.0	19.0	35.0	65% quiet roads, 30% dirt tracks	0.0	Towns/resorts/ village	Moorish architecture, old fort	No	895.0	
+21	https://www.biketours.com/portugal/camino-de-santiago-porto-santiago-de-compostela/	Camino de Santiago: From Porto to Santiago de Compostela	Portugal, Spain	6.0	2.0	25.0	19.0	32.0	Rolling, mountain biking?	0.0	Large cities/ small towns	UNESCO Santiago de Campostela, Camino de Santiago way, port wine, towers, bridges, cathedral, botanical garden, waterfall	No	1350.0	Yes?/ No?
+22	https://www.biketours.com/spain/aragon-to-valencia/	Aragon to Valencia: From Ancient Iron Mines to the Mediterranean	Spain	6.0	2.0	35.0	29.0	42.0	?longest greenway in Spain/rail-trail, 75% downhill	0.0	villages, small town, metropolis	UNESCO World Heritage city, castle, 	No	805.0	
+23	https://www.biketours.com/spain/catalonia-by-bike-path/	Catalonia by Bike Path: Cycling along Via Verde to the Sea	Spain	6.0	2.0	19.0	11.0	26.0	70% bike path, 30% dirt track or quiet road	2.0	small towns, village, city, 	beach, national park, volcanoes	No	664.0	No
+24	https://www.biketours.com/spain/land-of-the-conquistadors/	Cycling Spain's Land of the Conquistadors		6	2	32									
+25	https://www.biketours.com/spain/medieval-villages-catalonia/	Medieval Villages of Catalonia		6	2	25									
+26	https://www.biketours.com/switzerland/aar-cycle-route/	Aare Cycle Route: Along the Jura, Aare, and Rhine Rivers		8	2	30									
+27	https://www.biketours.com/switzerland/switzerland-rhone-river/	Rhone River Route: Zürich to Geneva		7	2	33									
+28	https://www.biketours.com/italy/taste-italy-emilia-romagna/	A Taste of Italy: Emilia Romagna		6	2	32									
+29	https://www.biketours.com/italy/friuli/	Friuli Regional Tour: Based in Prepotto and Gradisca		7	2	34									
+30	https://www.biketours.com/italy/landscapes-venice/	Landscapes of Venice: Loop Tour of the Veneto Region		7	2	31									
+31	https://www.biketours.com/italy/umbria-green-valleys/	Umbria's Green Valleys From the Pilgrimage Town of Assisi		6	2	23									
+32	https://www.biketours.com/germany/bavaria-bicycling-best-altmuehl-valley/	Cycling the Altmuehl Valley, Round-Trip from Regensburg		6	2	35									
+33	https://www.biketours.com/germany/elbe-river-dresden-magdeburg/	Elbe River: Dresden to Magdeburg		8	2	28									
+34	https://www.biketours.com/germany/main-river-bike-path-bamberg-aschaffenburg/	Main River Bike Path: Bamberg - Aschaffenburg		7	2	35									
+35	https://www.biketours.com/germany/mosel-bike-Tour/	Mosel Bike Path: Dreamy Mosel Valley from Trier to Koblenz		6	1	26									
+36	https://www.biketours.com/germany/munich-bavarian-lakes/	Munich and the Bavarian Lakes		7	2	31									
+37	https://www.biketours.com/germany/rhine-bike-path-mainz-cologne/	Rhine Bike Path: Mainz to Cologne		6	2	26									
+38	https://www.biketours.com/germany/saar-mosel-bike-path/	Saar and Mosel Bike Path		7	2	30									
+39		Wednesday Start													
+40	https://www.biketours.com/italy/bolzano-venice/	Bolzano to Venice: the Adige and Veneto Regions via Lake Garda		7	2	37									
+41	https://www.biketours.com/italy/bolzano-verona/	Bolzano to Verona: Orchards, Mountains, and Timeless Culture		6	2	30									
+42	https://www.biketours.com/italy/dolomites-venice/	Dolomites to Venice Along the Old Dolomites Railway Track		7	2	32									
+43	https://www.biketours.com/italy/innsbruck-to-bolzano-adige/	Innsbruck to Bolzano (Adige)		7	2	31									
+44	https://www.biketours.com/italy/innsbruck-lake-garda/	Innsbruck to Lake Garda Across the Southern Slopes of the Alps		7	2	34									
+45	https://www.biketours.com/italy/venice-trieste-istria/	Venice to Trieste and Istria		7	2	42									
