@@ -1,0 +1,9 @@
+Hansen et al, Handbook of Evidence-Based Radiation Oncology
+
+SEER is a good resource if you're looking for epidemiology/health services research data, but unfortunately not so great for applying in actual clinical care. Most oncology-specific handbooks will give you (not sure what the med oncs use, but Hansen et al, Handbook of Evidence-Based Radiation Oncology is a good rad onc resource) the overall survival rates that are basically gleaned from primary literature (clinical trials, surveillance studies, etc). However, a lot of the times, these numbers are very difficult to apply in a specific patient situation because there may be other factors at play that can contribute to survival that the staging guidelines haven't caught up with yet, especially in the era of growing targeted therapeutics. For example, these three patients are all technically stage IV, but will most certainly be on different parts of the survival curves: 1) diffusely metastatic NSCLC, EGFR wild-type, 2) patient with EGFR wild-type NSCLC with a single metastatic lesion in the brain and no other signs of extracranial disease, 3) patient with diffusely metastatic NSCLC, EGFR-mutated and responsive to erlotinib. We also know that there's a huge difference in outcomes in patients with HPV+ head and neck cancers compared to HPV-, and up until the 8th edition of the AJCC staging guidelines were published (which actually goes into effect on 1/1/2017), this wasn't really addressed. In the rare case where a patient actually presses me to provide an actual estimate (and it actually is surprisingly rare), I'm hesitant, but I try to provide a ballpark estimate that is based on the primary literature that takes into consideration their clinical/pathologic characteristics.
+-Eddie Zhang Rad Onc
+
+Siegel's "Cancer Statistics" published annually in CA Cancer J Clin - Mary McGunigal
+
+SEER - Shan Zhao
+
