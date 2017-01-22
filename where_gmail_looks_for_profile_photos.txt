@@ -1,0 +1,13 @@
+Hi Ruth,
+
+There are 5 different places where Gmail could be referencing for your profile picture:
+In Gmail's Settings
+Gmail>>Settings>>"My Picture"
+In your Google+ profile
+Google+>>View your Profile
+Via your contacts
+Search for yourself by email address and see what photo appears.
+If you have a "Send as" address that is treated as an alias, Gmail would reference the profile photo used for that Google account.
+Via another app or mail program, like Apple mail or Outlook. 
+If you have your profile photo attached to your own contact in one of those program's address books, be sure to change it.
+If you go through each one of these and you still can't find the photo, try waiting 24 hours for the changes to take effect. 
