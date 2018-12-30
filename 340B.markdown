@@ -1,0 +1,24 @@
+# 340B
+#learning/policy
+**Source** 340B@eriefamilyhealth.org
+
+## All Patients
+### Uninsured Patients
+* AllCare
+* 340B Walgreens
+
+### Insured Patients
+* When they use 340B Walgreens
+
+## Preferred Pharmacy
+* PBA should be putting preferred pharmacy
+
+## Custom List
+### UNINSURED 340B Walgreens
+* NDC-specific
+
+## Compliance Issues
+### “Do not fill with 340B”
+* Expedited partner treatment
+* On-Site Medications
+	* LARCs are being purchased at 340B pricing
